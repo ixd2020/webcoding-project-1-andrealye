@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Home</title>
+
+	<!-- Style CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<!-- Jquery Javascript File -->
+  <script src="jquery-3.3.1.min.js"></script>
+	<!-- Bootstrap Javascript File -->
+  <script src="bootstrap.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="bootstrap.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	
+	<!-- w3schools -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body style="font-family: 'Roboto Condensed', sans-serif; background-color: #282828">
+	<header>
+		<!-------------------------- Navigation Bar -------------------------->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #282828">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i style="color: #727272; font-size: 150%;" class="fas fa-bars"></i>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<div class="dropdown-divider"></div>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<div class="dropdown-divider"></div>
+					<li class="nav-item">
+						<a class="nav-link" href="portfolio.html">Portfolio</a>
+					</li>
+          <div class="dropdown-divider"></div>
+					<li class="nav-item">
+						<a class="nav-link" href="famouspaintings.html">Famous Paintings</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+    
+  <!-------------------------- Image of Salvador Dali and his Name -------------------------->
+  <div class="salvador_dali_image">
+    <div class="salvador_dali_name">Salvador Dali</div>
+  </div>
+    
+  <!-------------------------- Section 1 -------------------------->
+  <section id="sec1" style="background-color: white;padding-top: 80px;">  
+
+    <!-- Go to the top Button -->     
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-sort-up"></i><br>Top</button>
+
+    <!-- Salvador Dali well-known Artworks -->  
+    <div class="paintings_row">
+      <div class="paintings_column">
+        <!-- The Persistance Of Memory -->  
+        <div class="card">
+          <a href="famouspaintings.html#the_persistence_of_memory">
+            <img src="https://cdn.glitch.com/a354baf3-aa6a-4f17-a89a-20b292159295%2Fthe_persistence_of_memory.jpg?v=1604570262301" alt="The Persistence Of Memory" style="width:100%;">
+          </a>
+          <div class="container">
+            <h4><b>THE PERSISTENCE OF MEMORY</b></h4> 
+            <p style="margin: 0px;">The Persistence of Memory is considered one of the greatest masterpieces of twentieth century art. It is not only the most famous painting of Salvador Dali but also the most renowned artwork in Surrealism....</p>
+            <a href="famouspaintings.html#the_persistence_of_memory">
+              <button class="button readmore">Read More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="paintings_column">
+        <!-- Swans Reflecting Elephants -->
+        <div class="card">
+          <a href="famouspaintings.html#swans_reflecting_elephants">
+            <img src="https://cdn.glitch.com/a354baf3-aa6a-4f17-a89a-20b292159295%2Fswans_reflecting_elephants.jpg?v=1604570260444" alt="Swans Reflecting Elephants" style="width:100%;">
+          </a>
+          <div class="container">
+            <h4><b>SWANS REFLECTING ELEPHANTS</b></h4> 
+            <p style="margin: 0px;">Swans Reflecting Elephants is considered a landmark painting in Surrealism as it enhanced the popularity of the double-image style. It is the most famous double image created by Salvador Dali...</p>
+            <a href="famouspaintings.html#swans_reflecting_elephants">
+              <button class="button readmore">Read More</button> 
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="paintings_column">
+        <!-- Title of Artwork -->
+        <div class="card">
+          <img src="https://cdn.glitch.com/a354baf3-aa6a-4f17-a89a-20b292159295%2Fphoto-placeholder.jpg?v=1604570259104" alt="" style="width:100%">
+            <div class="container">
+                <h4><b>Title</b></h4> 
+                <p style="margin: 0px;">Description</p>
+            </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <!-------------------------- Section 2 -------------------------->
+  <section id="sec2" style="background-color: white; height: 1000px">
+    <div class="drawings_row">
+      <div class="drawings_column">
+        <div class="card">
+          <img src="https://cdn.glitch.com/a354baf3-aa6a-4f17-a89a-20b292159295%2Fphoto-placeholder.jpg?v=1604570259104" alt="" style="width:100%">
+          <div class="container">
+            <h4><b>Title</b></h4> 
+            <p style="margin: 0px;">Description</p> 
+          </div>
+        </div>
+      </div>
+
+      <div class="drawings_column">
+        <div class="card">
+          <img src="https://cdn.glitch.com/a354baf3-aa6a-4f17-a89a-20b292159295%2Fphoto-placeholder.jpg?v=1604570259104" alt="" style="width:100%">
+          <div class="container">
+            <h4><b>Title</b></h4> 
+            <p style="margin: 0px;">Description</p>  
+          </div>
+        </div>
+      </div>
+
+      <div class="drawings_column">
+        <div class="card">
+          <img src="https://cdn.glitch.com/a354baf3-aa6a-4f17-a89a-20b292159295%2Fphoto-placeholder.jpg?v=1604570259104" alt="" style="width:100%">
+          <div class="container">
+            <h4><b>Title</b></h4> 
+            <p style="margin: 0px;">Description</p>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+	
+	<!-------------------------- Footer -------------------------->
+	<section style="background-color: #282828;">
+		<div class="footer">
+			<p style="padding: 15px 10px 0px">Copyright 2020 All Rights Reserved</p>
+		</div>
+	</section>
+	
+	<!-------------------------- Javascript -------------------------->
+	<script>
+		//when user scrolls down 20px from the top of the page, show 'Top' button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("topBtn").style.display = "block";
+			} else {
+				document.getElementById("topBtn").style.display = "none";
+			}
+		}
+
+		//when user clicks on 'Top' button, scroll to the top of the page
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+</body>
+</html>
