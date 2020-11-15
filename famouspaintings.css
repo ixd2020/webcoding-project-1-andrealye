@@ -22,22 +22,6 @@
   		display: table;
 	}
 
-    .show_img {
-        display: none;
-    }
-
-    @media screen and (max-width: 700px) {
-        .show_img {
-            display: block;
-        }
-    }
-
-    @media screen and (max-width: 700px) {
-        .hide_img {
-            display: none;
-        }
-    }
-
     #sec1 {
         padding: 2px 60px 10px;
     }
@@ -55,7 +39,7 @@
         padding: 0px 5px;
     }
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 800px) {
         .column {
             width: 100%;
         }

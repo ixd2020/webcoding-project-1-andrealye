@@ -1,94 +1,63 @@
 /* CSS files add styling rules to your content */
 
-  html {
-  		scroll-behavior: smooth;
-	}
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url(https://cdn.glitch.com/0516dcb8-4f5f-4fb1-bb2f-b7e87e1c643b%2Fimg4.jpg?v=1605065391957)
+}
 
-	.navbar-brand {
-		width:230px;
-	}	
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
 
-    .nav-item{
-        padding: 0px 20px;
-    }
+* {
+  box-sizing: border-box;
+}
 
-	@media only screen and (max-width: 985px) {
-		.navbar-brand {
-			visibility: hidden;
-		}
-        
-        .nav-item{
-            padding: 0px 3px;
-        }
-	}
+.box {
+  float: left;
+  padding: 30px;
+  color: white;
+  height: 200px;
+}
 
-	@media only screen and (max-width: 500px) {
-		.subheader {
-	  		width: 200px;
-			font-size: 20px;
-			padding: 15px 5px 5px 5px;
-		}
-	}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-	.hyperlink, .hyperlink:hover{
-		text-decoration: none;
-		color:#000;
-	}
+.redbox{
+  background-color: red;
+}
 
-	#topBtn {
-		display: none;
-  		position: fixed;
-  		bottom: 65px;
- 	 	right: 20px;
-  		z-index: 99;
-  		font-size: 14px;
-  		border: none;
-  		outline: none;
-  		background-color: #747474;
-  		color: white;
-  		cursor: pointer;
-  		padding: 8px 18px;
-  		border-radius: 50%;
-	}
+.bluebox{
+  background-color: blue;
+}
 
-	#topBtn:hover {
-  		background-color: #2D2D2D;
-		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-	}
+.pinkbox{
+  background-color: pink;
+  padding: 50px;
+}
 
-	.button {
-	  	background-color: #4CAF50; /* Green */
-	  	border: none;
-	  	color: white;
-	  	padding: 6px 10px;
-	  	margin-bottom: 10px;
-	  	text-align: center;
-	  	text-decoration: none;
-	  	display: inline-block;
-	  	font-size: 10px;
-	  	transition-duration: 0.4s;
-	  	cursor: pointer;
-	}
+.greenbox{
+  background-color: green;
+}
 
-	.readmore {
-  		background-color: white;
-  		color: black;
-  		border: 2px solid #555555;
-	}
+.orangebox{
+  background-color: orange;
+}
 
-	.readmore:hover {
-	  	background-color: #555555;
-	  	color: white;
-	}
+.onecol{
+  width: 100%;
+}
 
-    .footer {
-		height: 58px;
-		bottom: auto;
-   		width: 100%;
-   		background-color: #282828;
-   		color: white;
-   		text-align: center;
-	}
+.twocol{
+  width: 50%;
+  border: 2px solid white;
+}
 
-
-	
+.threecol{
+  width: 33.33%;
+}
